@@ -6,8 +6,6 @@
 
 body {
     font-family: 'Lexend Deca', sans-serif;
-    /* width: 100vw;
-    height: 100vh; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,11 +24,50 @@ body {
     margin-top: 100px;
 }
 
-.cars-desc{
+.sedans{
+    background-color: #e28625;
+}
+
+.suvs{
+    background-color: #006971;
+}
+
+.luxury{
+    background-color: #004140;
+}
+
+.cars-div{
     width: 212px;
     display: flex;
     flex-direction: column;
     margin-bottom: 83px;
+}
+
+.desc-sedans:before{
+    content: '';
+    width: 64px;
+    height: 40px;
+    background-image: url('../imges/icon-sedan.svg');
+    margin-bottom: 35px;
+    background-position: center center;
+}
+
+.desc-suvs::before{
+    content: '';
+    width: 64px;
+    height: 40px;
+    background-image: url('../imges/icon-suv.svg');
+    margin-bottom: 35px;
+    background-position: center center;
+}
+
+.desc-luxury:before{
+    content: '';
+    width: 64px;
+    height: 40px;
+    background-image: url('../imges/icon-luxury.svg');
+    margin-bottom: 35px;
+    background-position: center center;
 }
 
 .title {
@@ -50,50 +87,13 @@ body {
     mix-blend-mode: normal;
     opacity: 0.75;
 }
-
-.sedans{
-    background-color: #E28625;
-}
-.desc-sedans:before{
-    content: '';
-    width: 64px;
-    height: 40px;
-    background-image: url('../imges/icon-sedan.svg');
-    margin-bottom: 35px;
-    background-position: center center;
-}
-
-.suvs{
-    background-color: #006971;
-}
-.desc-suvs::before{
-    content: '';
-    width: 64px;
-    height: 40px;
-    background-image: url('../imges/icon-suv.svg');
-    margin-bottom: 35px;
-    background-position: center center;
-}
-
-.luxury{
-    background-color: #004140;
-}
-.desc-luxury:before{
-    content: '';
-    width: 64px;
-    height: 40px;
-    background-image: url('../imges/icon-luxury.svg');
-    margin-bottom: 35px;
-    background-position: center center;
-}
   
 .button {
     padding: 12px 31px;
     background: #F2F2F2;
     border-radius: 25px;
     border: 2px solid transparent;
-    cursor: pointer;
-    
+    cursor: pointer; 
 }
 
 .btn-sedans{
