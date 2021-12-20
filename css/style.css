@@ -14,7 +14,6 @@ body {
 .container {
     display: flex;
     width: 921px;
-    /* margin: auto; */
 }
 
 .cars {
@@ -76,7 +75,7 @@ body {
     font-size: 40px;
     line-height: 48px;
     text-transform: uppercase;
-    color: #F2F2F2;
+    color: #f2f2f2;
     margin-bottom: 25px;
 }
 
@@ -84,24 +83,23 @@ body {
     font-size: 15px;
     line-height: 25px;
     color: #ffffff;
-    mix-blend-mode: normal;
     opacity: 0.75;
 }
   
 .button {
     padding: 12px 31px;
-    background: #F2F2F2;
+    background: #f2f2f2;
     border-radius: 25px;
     border: 2px solid transparent;
     cursor: pointer; 
 }
 
 .btn-sedans{
-    color: #E28625;
+    color: #e28625;
 }
 .btn-sedans:hover{
     color: #fff;
-    border-color:  #fff;
+    border-color: #fff;
     background-color: transparent;
 }
 
@@ -110,7 +108,7 @@ body {
 }
 .btn-suvs:hover{
     color: #fff;
-    border-color:  #fff;
+    border-color: #fff;
     background-color: transparent;
 }
 
@@ -119,6 +117,6 @@ body {
 }
 .btn-luxury:hover{
     color: #fff;
-    border-color:  #fff;
+    border-color: #fff;
     background-color: transparent;
 }
