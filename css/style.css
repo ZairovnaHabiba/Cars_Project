@@ -94,6 +94,7 @@ body {
     border-radius: 25px;
     border: 2px solid transparent;
     cursor: pointer; 
+    text-decoration: none;
 }
 
 .btn-sedans{
